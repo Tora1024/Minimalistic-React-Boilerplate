@@ -2,6 +2,7 @@
   "name": "first-boilerplate-test",
   "version": "1.0.0",
   "description": "Simplistic base for react projects. Up to date and ready to use.",
+  "repository": "https://github.com/Tora1024/Simplistic-React-Boilerplate",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -11,6 +12,7 @@
   "author": "Hector Coto",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^6.7.7",
     "babel-core": "^6.24.0",
     "babel-eslint": "^7.2.0",
     "babel-loader": "^6.4.1",
@@ -23,10 +25,13 @@
     "eslint-plugin-react": "^6.10.3",
     "extract-text-webpack-plugin": "^2.1.0",
     "html-webpack-plugin": "^2.28.0",
-    "node-sass": "^4.5.1",
+    "postcss": "^5.2.16",
+    "postcss-cssnext": "^2.10.0",
+    "postcss-import": "^9.1.0",
+    "postcss-loader": "^1.3.3",
+    "precss": "^1.4.0",
     "react-css-modules": "^4.1.0",
     "rimraf": "^2.6.1",
-    "sass-loader": "^6.0.3",
     "style-loader": "^0.15.0",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.2"
@@ -34,7 +39,6 @@
   "dependencies": {
     "axios": "^0.16.0",
     "babel-preset-stage-1": "^6.24.1",
-    "normalize.css": "^6.0.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.3",

@@ -5,8 +5,8 @@ import { Provider } from 'react-redux';
 import ReduxThunk from 'redux-thunk';
 import reducers from './reducers';
 import Routes from './router';
-import 'normalize.css';
-import '../styles/styles.css';
+//import 'normalize.css';
+//import '../styles/styles.css';
 
 const App = () => {
   const store = createStore(reducers, {}, applyMiddleware(ReduxThunk));

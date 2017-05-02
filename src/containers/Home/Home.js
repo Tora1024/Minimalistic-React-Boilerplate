@@ -9,7 +9,7 @@ class Home extends Component {
     return (
       <div styleName='container'>
         <Header />
-        Home
+        <div styleName='greeting'>Home</div>
         { this.props.children }
       </div>
 		);

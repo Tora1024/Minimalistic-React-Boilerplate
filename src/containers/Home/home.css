@@ -1,3 +1,19 @@
+/*precss syntax */
+$blue: #056ef0;
+
+/* cssnext syntax */
+:root {
+  --color-black: rgb(0,0,0);
+  --color-blue: #32c7ff;
+}
+
 .container {
-	color: blue;
+	display: flex;
+	flex-direction: column;
+	/*color: var(--color-blue);*/
+	color: $blue;
+
+	& .greeting {
+		color: var(--color-black);
+	}
 }

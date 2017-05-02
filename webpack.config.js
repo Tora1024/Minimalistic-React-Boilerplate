@@ -31,21 +31,17 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.css$/,
+        test: /\.css$/,        
         use: ExtractTextPlugin.extract({
           fallback: "style-loader",
-          use: "css-loader?modules"
+          use: [
+            {
+              loader: 'css-loader',
+              options: { modules: true, importLoaders: 1 },
+            },
+            'postcss-loader'
+          ]
         })
-      },
-      {
-        test: /\.scss$/,
-        use: [{
-          loader: "style-loader" // creates style nodes from JS strings
-        }, {
-          loader: "css-loader" // translates CSS into CommonJS
-        }, {
-          loader: "sass-loader" // compiles Sass to CSS
-        }]
       }
     ]
   },

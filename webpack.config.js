@@ -47,7 +47,8 @@ module.exports = {
   },
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({
-      names: ['vendor', 'manifest']
+      names: ['vendor', 'manifest'],
+      'minChunks': 2
     }),
     new HtmlWebpackPlugin({
       template: 'src/index.html'

@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
 import CSSModules from 'react-css-modules';
+import PropTypes from 'prop-types';
 import styles from './home.css';
-
-import Header from '../../components/Header/Header';
 
 class Home extends Component {
   render () {
     return (
       <div styleName='container'>
-        <Header />
-        <div styleName='greeting'>Home</div>
+        
         { this.props.children }
+        home
       </div>
-		);
+	);
   }
+}
+
+Home.propTypes = {
+  children: PropTypes.object,
 }
 
 export default CSSModules(Home, styles);

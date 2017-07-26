@@ -5,15 +5,17 @@ import { Provider } from 'react-redux';
 import ReduxThunk from 'redux-thunk';
 import reducers from './reducers';
 import Routes from './router';
-//import 'normalize.css';
-//import '../styles/styles.css';
+
+import { createBrowserHistory } from 'history';
+import { syncHistoryWithStore } from 'react-router-redux';
 
 const App = () => {
   const store = createStore(reducers, {}, applyMiddleware(ReduxThunk));
+  const history = syncHistoryWithStore(createBrowserHistory(), store);
 
   return (
     <Provider store={store}>
-      <Routes />
+      <Routes history={history}/>
     </Provider>
   );
 };

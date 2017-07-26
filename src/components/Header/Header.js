@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
-//import CSSModules from 'react-css-modules';
-//import styles from './header.css';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   render () {
     return (
-        <h1 >Header</h1>
-		);
+      <header>	
+        <h1>Minimalistic Boilerplate</h1>
+        <nav>
+          <ul>
+			<li><Link to='/'>Home</Link></li>
+			<li><Link to='/about'>About</Link></li>
+          </ul>
+        </nav>
+      </header>
+	);
   }
 }
-
-//export default CSSModules(Header, styles);
 
 export default Header;

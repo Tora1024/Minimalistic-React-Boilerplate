@@ -6,13 +6,11 @@ import {
 } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-//test for git account
+import Header from './components/Commons/Header/Header';
 
-import Header from './components/Header/Header';
-
-import Home from './containers/Home/Home';
-import About from './containers/About/About';
-import NotFound from './containers/NotFound/NotFound';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import NotFound from './components/NotFound/NotFound';
 
 const Routes = ({ history }) => {
   return (
@@ -21,8 +19,8 @@ const Routes = ({ history }) => {
         <Header />
 
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
+          <Route exact path='/' component={Home} />
+          <Route path='/about' component={About} />
           <Route component={NotFound} />
         </Switch>
         

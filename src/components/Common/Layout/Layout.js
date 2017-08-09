@@ -9,10 +9,16 @@ import Footer from '../Footer/Footer';
 const Layout = ({component: Component, ...rest}) => {
   return (
     <Route {...rest} render={matchProps => (
-      <div className="layout">
-        <Header />
-        <Component {...matchProps} />
-        <Footer />
+      <div className={styles.layout}>
+        <section className={styles.header}>
+          <Header/>
+        </section>
+        <main className={styles.component}>
+          <Component {...matchProps} />
+        </main>
+        <section className={styles.footer}>
+          <Footer />
+        </section>
       </div>
     )} />
   )

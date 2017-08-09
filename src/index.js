@@ -5,6 +5,8 @@ import { Provider } from 'react-redux';
 import ReduxThunk from 'redux-thunk';
 import reducers from './reducers';
 import Routes from './router';
+import normalize from 'normalize.css';
+import styles from '../styles/styles.css';
 
 import { createBrowserHistory } from 'history';
 import { syncHistoryWithStore } from 'react-router-redux';

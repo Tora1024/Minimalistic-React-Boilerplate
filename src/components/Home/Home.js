@@ -8,7 +8,7 @@ class Home extends Component {
       <div styleName='container'>
         Home
       </div>
-	);
+		);
   }
 }
 

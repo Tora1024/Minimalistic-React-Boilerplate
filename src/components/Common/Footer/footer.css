@@ -1,4 +1,17 @@
 .footer {
-	text-align: center;
-	color: red;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.title {
+	font-family: arial;
+}
+
+.nav {
+	display: flex;
+}
+
+.nav-item {
+	margin-right: 10px; 
 }

@@ -1,0 +1,13 @@
+:root {
+  --color-blue: #32c7ff;
+}
+
+.container {
+	margin: 0 20px;
+	height: 100%;
+	font-size: 72px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--color-blue);
+}

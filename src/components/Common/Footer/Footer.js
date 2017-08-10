@@ -10,7 +10,13 @@ const Footer = () => {
         <Link styleName='nav-item' to='/'>Home</Link>
         <Link styleName='nav-item' to='/about'>About</Link>
       </nav>
-      <div>Social Media</div>
+      <section styleName='social'>
+        <div styleName='facebook'></div>
+        <div styleName='linkedin'></div>
+        <div styleName='skype'></div>
+        <div styleName='github'></div>
+      </section>
+      <section styleName='copyright'>Created by @Hector</section>
     </footer>
   );
 }

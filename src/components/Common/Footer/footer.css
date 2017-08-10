@@ -1,7 +1,7 @@
 .footer {
 	display: flex;
 	justify-content: space-between;
-	margin: 20px;
+	padding: 20px;
 }
 
 .title {
@@ -10,8 +10,74 @@
 
 .nav {
 	display: flex;
+	align-items: center;
+	font-family: arial;
 }
 
 .nav-item {
-	margin-right: 10px; 
+	color: black;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.nav-item:hover 
+{
+	color: #32c7ff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.social {
+	display: flex;
+	align-items: center;
+}
+
+.social div {
+	width: 25px;
+	height: 25px;
+	background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.facebook {
+	background-image: url('./icons/facebook.png');
+}
+
+.facebook:hover {
+	border-radius: 50%;
+	background-color: #0072b1;
+}
+
+.linkedin {
+	background-image: url('./icons/linkedin.png');
+}
+
+.linkedin:hover {
+	border-radius: 50%;
+	background-color: #0976B4;
+}
+
+.skype {
+	background-image: url('./icons/skype.png');
+}
+
+.skype:hover {
+	border-radius: 50%;
+	background-color: #34b7f1;
+}
+
+.github {
+	background-image: url('./icons/github.png');
+}
+
+.github:hover {
+	border-radius: 50%;
+	background-color: lightgray;
+}
+
+.copyright {
+	display: flex;
+	align-items: center;
 }

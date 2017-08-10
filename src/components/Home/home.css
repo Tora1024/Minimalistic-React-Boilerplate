@@ -5,11 +5,11 @@
 }
 
 .container {
+	margin: 0 20px;
+	height: 100%;
+	font-size: 72px;
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	color: var(--color-blue);
-
-	& .greeting {
-		color: var(--color-black);
-	}
 }

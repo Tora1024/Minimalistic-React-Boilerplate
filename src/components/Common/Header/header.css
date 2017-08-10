@@ -1,17 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Faustina');
+
 .header {
 	display: flex;
+	background-color: #1E1E1E;
 	justify-content: space-between;
-	margin: 20px;
+	padding: 20px;
 }
 
 .title {
-	font-family: arial;
+	color: white;
+	font-family: 'Arvo', serif;
 }
 
 .nav {
 	display: flex;
+	align-items: center;
+	font-family: arial;
 }
 
 .nav-item {
-	margin-left: 10px; 
+	color: lightgray;
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+.nav-item:hover 
+{
+	color: #00A0C6;
+	text-decoration: none;
+	cursor: pointer;
 }

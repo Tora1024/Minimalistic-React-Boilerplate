@@ -1,11 +1,13 @@
 import React from 'react';
+import CSSModules from 'react-css-modules';
+import styles from './about.css';
 
 const About = () => {
   return (
-    <div className="container">
+    <div styleName='container'>
       About
     </div>
   );
 };
 
-export default About;
+export default CSSModules(About, styles);

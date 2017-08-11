@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <footer styleName='footer'>
       <nav styleName='nav'>
-        <Link styleName='nav-item' to='/'>Home</Link>
-        <Link styleName='nav-item' to='/about'>About</Link>
+        <Link styleName='nav-item' to='/' replace>Home</Link>
+        <Link styleName='nav-item' to='/about' replace>About</Link>
       </nav>
       <section styleName='social'>
         <div styleName='facebook'></div>

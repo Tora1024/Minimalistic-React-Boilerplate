@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+:root {
+	/* Colors */
+	--brandColor-black: #000000;
+	--brandColor-white: #FFFFFF;
+  --brandColor-lightBlue: #32c7ff;
+  --brandColor-lightGray: #D3D3D3;
+  --brandColor-mateBlack: #1E1E1E;
+  --brandColor-facebook: #0072b1;
+  --brandColor-linkedIn: #0976B4;
+  --brandColor-skype: #34b7f1;
+  /* Fonts */
+  --brandFont-arvo: 'Arvo', Serif;
+  --brandFont-arial: Arial, Sans-Serif;
+}

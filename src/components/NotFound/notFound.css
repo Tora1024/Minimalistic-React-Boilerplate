@@ -1,0 +1,44 @@
+@import "../../../styles/constants.css";
+
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inner-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.lost {
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+  background-repeat: no-repeat;
+	background-image: url('./lost.gif');
+}
+
+.headline {
+	width: 40%;
+	text-align: center; 
+	font-family: var(--brandFont-arial);
+}
+
+.go-back {
+	margin-top: 20px;
+	font-size: 36px;
+	font-family: var(--brandFont-arvo);
+	color: var(--brandColor-lightBlue);
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.go-back:hover 
+{
+	color: var(--brandColor-linkedIn);
+	text-decoration: none;
+	cursor: pointer;
+}

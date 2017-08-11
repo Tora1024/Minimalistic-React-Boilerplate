@@ -16,7 +16,7 @@ const Footer = () => {
         <div styleName='skype'></div>
         <div styleName='github'></div>
       </section>
-      <section styleName='copyright'>Created by @Hector</section>
+      <section styleName='copyright'>Created by @H&eacute;ctor</section>
     </footer>
   );
 }

@@ -25,7 +25,7 @@ const Layout = ({component: Component, ...rest}) => {
 };
 
 Layout.propTypes = {
-  component: PropTypes.function,
+  component: PropTypes.func,
 }
 
 export default CSSModules(Layout, styles);

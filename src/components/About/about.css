@@ -1,6 +1,4 @@
-:root {
-  --color-blue: #32c7ff;
-}
+@import "../../../styles/constants.css";
 
 .container {
 	margin: 0 20px;
@@ -9,5 +7,5 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: var(--color-blue);
+	color: var(--brandColor-lightBlue);
 }

@@ -4,11 +4,11 @@ Simple, yet versatile and easy to grab and use.
 
 Perks:
 
--Webpack 3
--React Router 4
--Post-CSS
--CSS-Modules
--ESLint
+-Webpack 3.
+-React Router 4.
+-Post-CSS.
+-CSS-Modules.
+-ESLint.
 
 And more..
 

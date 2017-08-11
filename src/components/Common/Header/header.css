@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Arvo|Faustina');
+@import "../../../../styles/constants.css";
 
 .header {
 	display: flex;
-	background-color: #1E1E1E;
+	background-color: var(--brandColor-mateBlack);
 	justify-content: space-between;
 	padding: 20px;
 }
 
 .title {
-	color: white;
-	font-family: 'Arvo', serif;
+	color: var(--brandColor-white);
+	font-family: var(--brandFont-arvo);
 }
 
 .nav {
@@ -19,14 +19,14 @@
 }
 
 .nav-item {
-	color: lightgray;
+	color: var(--brandColor-lightGray);
 	margin-left: 10px;
 	text-decoration: none;
 }
 
 .nav-item:hover 
 {
-	color: #00A0C6;
+	color: var(--brandColor-lightBlue);
 	text-decoration: none;
 	cursor: pointer;
 }

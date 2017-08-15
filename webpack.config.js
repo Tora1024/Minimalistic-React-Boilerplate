@@ -1,7 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const DuplicatePackageCheckerPlugin = require('duplicate-package-checker-webpack-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 const VENDOR_LIBS = [
@@ -66,6 +65,6 @@ module.exports = {
       filename: 'styles.css',
       allChunks: true
     }),
-    new DuplicatePackageCheckerPlugin()
+    new webpack.optimize.ModuleConcatenationPlugin(),
   ]
 };

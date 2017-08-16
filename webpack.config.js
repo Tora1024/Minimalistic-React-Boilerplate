@@ -18,6 +18,9 @@ module.exports = {
     publicPath: '/',
     filename: '[name][chunkhash].js',
   },
+  devServer: {
+    historyApiFallback: true,
+  }, 
   module: {
     rules: [
       {

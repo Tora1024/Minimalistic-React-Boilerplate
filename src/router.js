@@ -1,6 +1,6 @@
 import React from 'react'; 
 import {
-  HashRouter as Router,
+  browserRouter as Router,
   Route,
   Switch,
 } from 'react-router-dom';
